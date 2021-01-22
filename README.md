@@ -11,12 +11,12 @@ The Project has starter code. Some Javascript code in app.js file and some modif
 The development process can be tracked thru commits.
 
 ## Project Tree
-root___css___styles.css
-    -|__js___app.js
-    -|__index.html
-    -|__README.md
+* root___css___styles.css
+    * __js___app.js
+    * __index.html
+    * __README.md
 
-* [Instructions](instructions)
+* [Instructions](##instructions)
 
 ## Instructions
 
