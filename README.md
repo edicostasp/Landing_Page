@@ -13,9 +13,9 @@ The development process can be tracked through commits.
 ## Project Tree
 Folder | Files
 -------|-------
-\root   | index.html
-\root\css | styles.css
-\root\js | app.js
+\   | index.html
+\css\ | styles.css
+\js\ | app.js
 
 ## How to Run the project
     - To run the project, you can download this files in each related folder and open the index.html file. 
