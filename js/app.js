@@ -53,6 +53,7 @@ function buildNavigationMenu(){
     }
     const navBarList = document.getElementById('navbar__list')
     navBarList.appendChild(piece);
+    addElementSpan();
 }
 // Add class 'active' to section when near top of viewport
 function setActiveClass(){
@@ -62,6 +63,18 @@ function setActiveClass(){
         }else{
             sectionList[i].classList.remove("your-active-class");
         }
+    }
+}
+
+// Add Text dynamically into each section
+function addElementSpan(){
+    for (let i=0; i < sectionList.length; i++){
+        // var d = new Date();
+        // var month = d.getMonth();
+        const newSpanElement = document.createElement('span');
+        newSpanElement.textContent = ' Udacity ' + (i + 1);
+        const addSection = document.querySelectorAll('h2');
+        addSection[i].appendChild(newSpanElement);
     }
 }
 
@@ -84,7 +97,7 @@ document.addEventListener('scroll', function(){
 });
 
 const navBarList = document.getElementById('navbar__list')
-navBarList.addEventListener('click', function(event){
+    navBarList.addEventListener('click', function(event){
     scrollElement(event)
 })
 // Set sections as active
