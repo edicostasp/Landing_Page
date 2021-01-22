@@ -12,6 +12,7 @@ The development process can be tracked through commits.
 
 ## Project Tree
 Folder | Files
+-------|-------
 root   | index.html
 css | styles.css
 js | app.js
