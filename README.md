@@ -13,18 +13,15 @@ The development process can be tracked through commits.
 ## Project Tree
 Folder | Files
 -------|-------
-root   | index.html
-css | styles.css
-js | app.js
+\root   | index.html
+\root\css | styles.css
+\root\js | app.js
 
-* root
-    * __css___styles.css
-    * __js___app.js
-    * __index.html
-    * __README.md
+## How to Run the project
+    - To run the project, you can download this files in each related folder and open the index.html file. 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
 
 To get started, open `js/app.js` and start building out the app's functionality
 
@@ -34,3 +31,9 @@ To get started, open `js/app.js` and start building out the app's functionality
 2. Build out your HTML and at least 3 content sections. 
     The rest of your functionality relies on these sections.
     Take a quick look at all the HTML elements in index.html. Note the values for their id, class, and data attributes. To manipulate the DOM, you'll be using many of the tools and methods you've learned on these elements (and on those that you will create).
+
+## References
+
+- http://www.udacity.com
+- https://www.w3schools.com/js/default.asp
+- https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#headings
